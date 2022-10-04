@@ -1,23 +1,28 @@
-# TÍTULO DO PROJETO
+# Portal de Informações acerca de 
+Licitações no Brasil
 
-`CURSO`
 
-`DISCIPLINA`
+`CURSO` Análise e Desenvolvimento de Sistemas
 
-`SEMESTRE`
+`DISCIPLINA` Projeto: Desenvolvimento de Aplicação Web Front-End
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`SEMESTRE` Eixo 1
+
+Criar um portal que agrega informações pertinentes a processos de licitação a serem disputados por microempresários. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Erasmo Alves Júnior
+* Felipe Gonçalves Sobrinho
+* Cláudio Lopes Coelho Barroso
+* Sidney Raphaell Camilo de Souza
+* Lucas Guilherme dos Reis
+* Juan Vitor Vieira da Silva
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Josemar Alves Caetano
 
 ## Instruções de utilização
 
