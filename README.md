@@ -1,5 +1,4 @@
-# Portal de Informações acerca de 
-Licitações no Brasil
+# Portal de Informações acerca de licitações no Brasil
 
 
 `CURSO` Análise e Desenvolvimento de Sistemas
