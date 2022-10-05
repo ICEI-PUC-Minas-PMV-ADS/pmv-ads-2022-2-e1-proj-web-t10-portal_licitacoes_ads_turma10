@@ -40,3 +40,5 @@ Dada a mortandade de microempresas no Brasil e a dificuldade de microempresário
 ## Público-Alvo
 
 Esta aplicação tem como público-alvo proprietários de micro (faturamento de até 360 mil reais) e pequenas (faturamento de até 4,8 milhões de reais) empresas que já estejam formalizadas ou em processo de formalização, que tenham interesse em fornecer seus produtos ou serviços ao poder público como forma de aumentar o faturamento e com isso a estabilidade do negócio.
+
+<span style="color:red">A seguir: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>
