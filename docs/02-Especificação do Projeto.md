@@ -1,91 +1,286 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+A problemática do presente projeto foi consolidada a partir de discussões entre os integrantes do grupo a respeito dos processos de licitação e seu potencial de transformar a realidade de muitas empresas do Brasil. Os membros do grupo fizeram algumas entrevistas com empresários de diferentes ramos e níveis de maturidade organizacional, e percebeu-se a falta de conhecimento e informação sobre essa forma de prestação de serviços. Os detalhes desse levantamento estão sintetizados abaixo em forma de personas e histórias de usuários.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Persona 1:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Pedro tem 32 anos, mora no interior de Minas Gerais e assumiu recentemente a fábrica de pré-moldados do pai após o mesmo ter sofrido complicações de saúde. Pedro é formado em Administração de Empresas, possui algumas experiências no mercado de trabalho, porém é a primeira vez que assume uma posição de liderança dentro de uma organização. Analisando os números da empresa nos últimos meses notou que o faturamento caiu bruscamente no último semestre. Descobriu que alguns clientes migraram para a concorrência e está cada vez mais difícil atrair novos clientes.  Pedro decidiu então buscar novos clientes fora da sua cidade, visitou alguns municípios da região e ficou sabendo da construção de novos bairros e a abertura de editais para fornecimento de blocos sextavados via processos de licitação, porém não tinha a menor ideia de como começar a sua participação nesses processos.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky" colspan="3"><img  src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10/blob/main/docs/img/Persona1.png" height="200" width="160" alt="Foto da Persona 1"  /> </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" colspan="3">Pedro Alves, 32 Anos</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Sobre</td>
+    <td class="tg-0pky"> Aplicativos mais usados</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="2">Administrador de empresas.<br> Assumiu a fábrica de pré-moldados do pai recentemente, localizada no interior de MG.</td>
+    <td class="tg-0lax">●Instagram;<br>    ●Whatsapp;<br>    ●Aplicativos Bancários;<br>    ●Apps de apostas esportivas.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Motivações</td>
+    <td class="tg-0lax">Frustrações</td>
+    <td class="tg-0lax">Hobbies, História</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">● 	Família;<br>    ● Superar as expectativas do pai no novo desafio;<br>    ● Viajar com a família para a praia todo ano.</td>
+    <td class="tg-0lax">● 	Mão de obra qualificada escassa na região;<br>    ● 	Necessidade de investimentos na fábrica;<br>    ● 	Pouco conhecimento sobre leis e direito empresarial.</td>
+    <td class="tg-0lax">● 	Jogar Futebol;<br>    ● Fazer churrasco com os amigos;<br>    ● Aproveita o tempo livre para ler livros de autoajuda;<br>    ● Adora cozinhar.</td>
+  </tr>
+</tbody>
+</table>
+
+### Persona 2:
+
+Michelle é CEO de uma empresa que fabrica e faz importação de insumos médicos e hospitalares. No último ano a empresa teve crescimento de 8% no seu faturamento, porém ainda ficou abaixo da meta esperada para o ano que era de 15%. Michelle é casada, possui três filhos, e está em um momento complicado na sua carreira, pois não está conseguindo atingir as metas propostas. Os investidores estão cada vez mais sem paciência com Michelle e o seu emprego está com os dias contados. Michelle busca alternativas para aumentar a receita da empresa através de processos de licitação para fornecer seus produtos em larga escala para os hospitais, laboratórios e centros médicos públicos de todo Brasil.
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky" colspan="3"><img  src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10/blob/main/docs/img/Persona2.png" height="200" width="160" alt="Foto da Persona 2"  /> </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" colspan="3">Michelle Azevedo, 45 Anos</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Sobre</td>
+    <td class="tg-0pky"> Aplicativos mais usados</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="2">Advogada e CEO da empresa de insumos hospitalares.</td>
+    <td class="tg-0lax">● 	Instagram;<br>    ● Whatsapp;<br>    ● Aplicativos Bancários;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Motivações</td>
+    <td class="tg-0lax">Frustrações</td>
+    <td class="tg-0lax">Hobbies, História</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">● 	Prover o melhor para os seus filhos;<br>    ●	Comprar um sítio para curtir os finais de semana com a família;<br>    ●	Ter reconhecimento profissional na sua área.</td>
+    <td class="tg-0lax">● 	Falta de tempo para dedicar aos seus filhos;<br>    ●	Muita cobrança no trabalho;<br>    ●	Marido desempregado.</td>
+    <td class="tg-0lax">● 	Jantar em restaurantes;<br>    ● Adora ver filmes de romance e drama;</td>
+  </tr>
+</tbody>
+</table>
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">Eu como...</th>
+    <th class="tg-c3ow">...quero/desejo...</th>
+    <th class="tg-0pky">...para...</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Pedro Alves</td>
+    <td class="tg-0pky">Entender como funciona um processo de licitação</td>
+    <td class="tg-0pky">Verificar possibilidade de adesão nesses processos.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0lax">Participar de vários processos de licitação ao mesmo tempo</td>
+    <td class="tg-0lax">Aumentar as chances de fechar negócios.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0pky">Manter um registro de notícias específicas sobre os processos de licitação que tem mais interesse</td>
+    <td class="tg-0pky">Ficar por dentro de prazos e demais informações importantes.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Pedro Alves</td>
+    <td class="tg-0lax">Fazer comentários em fóruns de discussão</td>
+    <td class="tg-0lax">Tirar dúvidas e levantar informações.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Pedro Alves</td>
+    <td class="tg-0pky">Acompanhar o andamento do processo no qual está participando</td>
+    <td class="tg-0pky">Não perder prazos e documentações.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0lax">Receber sugestões de melhoria dos seus processos internos da empresa</td>
+    <td class="tg-0lax">Conseguir participar dos editais de forma mais competitiva.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Pedro Alves</td>
+    <td class="tg-0pky">Ter acesso a informação especializada em processos de licitação</td>
+    <td class="tg-0pky">Regularizar a empresa e estar apto a participar dos processos de licitação.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0lax">Anexar documentação dos processos de licitação em andamento</td>
+    <td class="tg-0lax">Organizar melhor, salvar arquivos e visualizar o status atual dos processos em andamento.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0lax">Realizar cadastro da sua empresa, região e áreas de interesse</td>
+    <td class="tg-0lax">Receber notícias sobre processos de licitação do seu interesse que serão abertos.</td>
+  </tr>
+</tbody>
+</table>
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">ID</th>
+    <th class="tg-c3ow">Descrição</th>
+    <th class="tg-0pky">Prioridade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">RF-01</td>
+    <td class="tg-0pky">O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API)</td>
+    <td class="tg-0pky">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-02</td>
+    <td class="tg-0lax">O site deve permitir o cadastro de perfil de usuário</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-03</td>
+    <td class="tg-0pky">O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.</td>
+    <td class="tg-0pky">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-04</td>
+    <td class="tg-0lax">O site deve conter um guia de instruções para o processo de licitações</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-05</td>
+    <td class="tg-0pky">O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação.</td>
+    <td class="tg-0pky">Média</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-06</td>
+    <td class="tg-0lax">O site deve permitir visualizar as informações de contatos do mantenedor do site.</td>
+    <td class="tg-0lax">Média</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-07</td>
+    <td class="tg-0pky">O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail).</td>
+    <td class="tg-0pky">Média</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-08</td>
+    <td class="tg-0lax">O site deve fornecer ao usuário cadastrado informações dos pregões selecionados.</td>
+    <td class="tg-0lax">Média</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-09</td>
+    <td class="tg-0pky">O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources).</td>
+    <td class="tg-0pky">Baixa</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-10</td>
+    <td class="tg-0lax">O site deve exibir os comentários registrados juntamente com a notícia exibida.</td>
+    <td class="tg-0lax">Baixa</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-11</td>
+    <td class="tg-0pky">O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais.</td>
+    <td class="tg-0pky">Baixa</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-12</td>
+    <td class="tg-0lax">O site deve permitir que usuários possam comentar notícias.</td>
+    <td class="tg-0lax">Baixa</td>
+  </tr>
+</tbody>
+</table>
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">ID</th>
+    <th class="tg-c3ow">Descrição</th>
+    <th class="tg-0pky">Prioridade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">RNF-01</td>
+    <td class="tg-0pky">O site deve ser compatível com o principais navegadores do mercado (Google Chrome, Microsoft Edge, Firefox).</td>
+    <td class="tg-0pky">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RNF-02</td>
+    <td class="tg-0lax">Uso de design responsivo nas interfaces gráficas.</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RNF-03</td>
+    <td class="tg-0pky">Utilização do módulo de informações cadastrais em modo off-line.</td>
+    <td class="tg-0pky">Média</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RNF-04</td>
+    <td class="tg-0lax">Compatibilidade com os sistemas operacionais Windows, IOS e Android.</td>
+    <td class="tg-0lax">Média</td>
+  </tr>
+</tbody>
+</table>
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">ID</th>
+    <th class="tg-c3ow">Descrição</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">RE-01</td>
+    <td class="tg-0pky">O projeto deverá ser entregue no final do semestre letivo, não podendo ultrapassar a data limite de 28/11/2022.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RE-02</td>
+    <td class="tg-0lax">A equipe não pode subcontratar o desenvolvimento do software.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RE-03</td>
+    <td class="tg-0lax">A equipe deverá entregar cada etapa do projeto de acordo com os critérios estabelecidos pela coordenação do curso de Análise e desenvolvimento de sistemas da PUC Minas.</td>
+  </tr>
+</tbody>
+</table>
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+<span style="color:red">A seguir: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10/blob/main/docs/03-Metodologia.md"> Metodologia</a></span>
