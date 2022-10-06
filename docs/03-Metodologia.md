@@ -52,17 +52,17 @@ A equipe está organizada da seguinte maneira:
 
 ●     Product Owner: Felipe Gonçalves Sobrinho
 
-●     Equipe de Desenvolvimento
+●     Equipe de Desenvolvimento:
 
-○  Cláudio Lopes Coelho Barroso
+    ○  Cláudio Lopes Coelho Barroso
 
-○  Sidney Raphaell Camilo de Souza
+    ○  Sidney Raphaell Camilo de Souza
 
-○  Juan Vitor Vieira da Silva 
+    ○  Juan Vitor Vieira da Silva 
 
-●     Equipe de Design
+●     Equipe de Design:
 
-○   Lucas Guilherme dos Reis
+    ○   Lucas Guilherme dos Reis
 
 
 ### Processo
