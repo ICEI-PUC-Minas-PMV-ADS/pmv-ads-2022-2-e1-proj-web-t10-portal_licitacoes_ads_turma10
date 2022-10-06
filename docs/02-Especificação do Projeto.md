@@ -128,12 +128,12 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
     <td class="tg-0pky">Regularizar a empresa e estar apto a participar dos processos de licitação.</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0lax">Michele Azevedo</td>
     <td class="tg-0lax">Anexar documentação dos processos de licitação em andamento</td>
     <td class="tg-0lax">Organizar melhor, salvar arquivos e visualizar o status atual dos processos em andamento.</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Michelle Azevedo</td>
+    <td class="tg-0lax">Michele Azevedo</td>
     <td class="tg-0lax">Realizar cadastro da sua empresa, região e áreas de interesse</td>
     <td class="tg-0lax">Receber notícias sobre processos de licitação do seu interesse que serão abertos.</td>
   </tr>

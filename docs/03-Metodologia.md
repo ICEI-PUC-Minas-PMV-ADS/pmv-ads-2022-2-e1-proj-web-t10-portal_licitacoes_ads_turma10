@@ -3,7 +3,20 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+
+A relação de repositórios, documentações, e ferramentas de organização do time durante a  execução deste projeto estão descritas neste capítulo.
+
+##Relação de ambientes de trabalho
+As etapas da realização do projeto são desenvolvidas e gerenciadas utilizando-se de diversas plataformas, que estão relacionadas abaixo:
+
+|Ambiente                        | Plataforma            |Link de Acesso                                           |
+|--------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Documentos do Projeto           |Google Docs              |https://docs.google.com/document/d/15MXjRaRIIxBZ2gNAxls8p8MO23zkeUDW/edit#|
+|Repositório de Código Fonte      |Git Hub                |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10 |
+|Projeto de Interface e wireframes |MarvelApp                  |https://marvelapp.com/prototype/2ge6bdh6/screen/89003223                                                                        |
+|Gerenciamento de Projeto          |Trello             |https://trello.com/b/fT07ietm/projeto-licita%C3%A7%C3%B5es                  |
+
+
 
 ## Controle de Versão
 
