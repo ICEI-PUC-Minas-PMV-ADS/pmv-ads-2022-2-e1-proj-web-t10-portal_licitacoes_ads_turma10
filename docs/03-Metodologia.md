@@ -6,7 +6,7 @@
 
 A relação de repositórios, documentações, e ferramentas de organização do time durante a  execução deste projeto estão descritas neste capítulo.
 
-##Relação de ambientes de trabalho
+## Relação de ambientes de trabalho
 As etapas da realização do projeto são desenvolvidas e gerenciadas utilizando-se de diversas plataformas, que estão relacionadas abaixo:
 
 |Ambiente                        | Plataforma            |Link de Acesso                                           |
