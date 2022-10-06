@@ -68,9 +68,13 @@ A equipe está organizada da seguinte maneira:
 ### Processo
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello
+
 ●     Backlog : recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+
 ●     A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
 ●     Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
 ●     Concluído: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro kanban do grupo desenvolvido no Trello está disponível através do link https://trello.com/b/fT07ietm/projeto-licita%C3%A7%C3%B5es e é apresentado, no estado atual, na Figura Abaixo: 
@@ -79,9 +83,13 @@ O quadro kanban do grupo desenvolvido no Trello está disponível através do li
 ### Ferramentas
 
 As ferramentas empregadas no projeto são: 
+
 ●    Editor de código - Visual Studio Code 
+
 ●    Ferramentas de comunicação - WhatsApp e Teams
+
 ●    Ferramenta de desenho de tela - MarvelApp
+
 
 O editor de código Visual Studio Code foi escolhido pela sua prática integração com o Git Hub. Já as ferramentas de comunicação WhatsApp e Teams foram escolhidas pela familiaridade dos membros do grupo com as mesmas. Por fim, escolhemos a ferramenta MarvelApp para os desenhos de tela por ter atendido bem ao que precisávamos. 
 
