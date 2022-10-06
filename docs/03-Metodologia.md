@@ -49,12 +49,19 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 A equipe está organizada da seguinte maneira:
 
 ●     Scrum Master: Erasmo Alves Júnior
+
 ●     Product Owner: Felipe Gonçalves Sobrinho
+
 ●     Equipe de Desenvolvimento
+
 ○  Cláudio Lopes Coelho Barroso
+
 ○  Sidney Raphaell Camilo de Souza
+
 ○  Juan Vitor Vieira da Silva 
+
 ●     Equipe de Design
+
 ○   Lucas Guilherme dos Reis
 
 
