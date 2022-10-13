@@ -19,14 +19,48 @@ Conforme fluxo de usuário apresentado no item anterior, as telas do sistema sã
 > - Conteúdo Principal - apresenta o conteúdo da tela em questão;
 > - Footer ou Rodapé - O rodapé ou footer, apresenta informações úteis como endereço, telefone de contato e redes sociais, além de facilitar a navegação dos usuários e auxiliar a alcançar os objetivos.
 
+![Imagem da estrutura das telas](img/estrutura%20telas.jpeg)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+## Tela 1 - Página Inicial
+
+A tela de Página Inicial mostra notícias de destaque a partir da API utilizada pelo sistema. Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaque (imagem, título, data, fonte e resumo, ícone para ver a notícia completa) e um campo de pesquisa por palavra-chave. Outras funcionalidades encontradas na Página Inicial são:
+
+> - Campo de Pesquisa que permite substituir o conteúdo da página com o resultado da busca solicitada pelo usuário;
+> -	Botão  Ver notícia Completa que leva o usuário para a tela da Notícia completa;
+> - Componentes de navegação no cabeçalho e no rodapé.
+
+![Tela 1 - Página Inicial](img/Pagina%20inicial.PNG)
+
+## Tela 2 - Pesquisa Licitações
+
+Nesta seção encontra-se uma uma barra de pesquisa de processos de licitações, podendo utilizar filtros na busca, e os resultados encontrados. As licitações que o usuário desejar fazer o acompanhamento devem ser seguidas através do botão “+” disponível ao lado da caixa com o conteúdo.
+
+![Tela 2 - Pesquisa Licitações](img/Pesquisa%20licita%C3%A7%C3%B5es.PNG)
+
+## Tela 3 - Notícia completa e comentários
+
+A tela de notícia completa e comentários apresenta o conteúdo completo da notícia, a possibilidade de fazer um comentário, ler os já existentes, e também a funcionalidade de compartilhamento da notícia nas redes sociais.
+
+![Tela 3 - Notícia completa e comentários](img/Noticia%20completa.PNG)
+
+## Tela 4 - Guia
+
+A tela a seguir apresenta um guia de como é o funcionamento de um processo de licitação. A intenção é ajudar o leitor a se localizar perante as fases de uma licitação e orientá-lo quanto aos seus objetivos em um processo deste tipo.
+
+![Tela 4 - Guia](img/Guia.PNG)
+
+## Tela 5 - Cadastro de Usuário
+
+A tela de cadastro permite ao usuário fazer o input das suas informações no sistema. É exigido nesta etapa as informações pessoais e da empresa que pretende participar dos processos licitatórios. Os dados serão armazenados em um banco de dados.
+
+![Tela 5 - Cadastro de Usuário](img/Cadastro.PNG)
+
+## Tela 6 - Acompanhamento dos processos selecionados
+
+Nesta parte o usuário poderá acompanhar os processos de licitação previamente selecionados por ele. Aqui ele terá acesso às informações detalhadas de cada processo, como prazo, documentação, status da licitação e demais informações relevantes.
+
+![Tela 6 - Acompanhamento](img/Acompanhamento%20dos%20processos.PNG)
+
+## Tela 7 - Contato/Suporte
+
+![Tela 7 - Contato/Suporte](img/Contato.suporte.PNG)
