@@ -23,11 +23,7 @@ Conforme fluxo de usuário apresentado no item anterior, as telas do sistema sã
 
 ## Tela 1 - Página Inicial
 
-A tela de Página Inicial mostra notícias de destaque a partir da API utilizada pelo sistema. Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaque (imagem, título, data, fonte e resumo, ícone para ver a notícia completa) e um campo de pesquisa por palavra-chave. Outras funcionalidades encontradas na Página Inicial são:
-
-> - Campo de Pesquisa que permite substituir o conteúdo da página com o resultado da busca solicitada pelo usuário;
-> -	Botão  Ver notícia Completa que leva o usuário para a tela da Notícia completa;
-> - Componentes de navegação no cabeçalho e no rodapé.
+A tela de Página Inicial mostra notícias de destaque a partir da API utilizada pelo sistema. Com base na estrutura padrão, o bloco de Conteúdo traz as notícias em destaque (imagem, título, data, fonte e resumo, ícone para ver a notícia completa) e um campo de pesquisa por palavra-chave.
 
 ![Tela 1 - Página Inicial](img/Pagina%20inicial.PNG)
 
@@ -62,5 +58,7 @@ Nesta parte o usuário poderá acompanhar os processos de licitação previament
 ![Tela 6 - Acompanhamento](img/Acompanhamento%20dos%20processos.PNG)
 
 ## Tela 7 - Contato/Suporte
+
+A tela de Contato/suporte reúne informações a respeito do mantenedor do site, telefone de contato, email e endereço. Nesta seção o usuário encontra também um mapa indicando a localização geográfica da empresa.
 
 ![Tela 7 - Contato/Suporte](img/Contato.suporte.PNG)
