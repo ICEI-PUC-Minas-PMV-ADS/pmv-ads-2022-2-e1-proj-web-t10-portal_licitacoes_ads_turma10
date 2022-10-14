@@ -10,20 +10,21 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
-![Diagrama de Componentes](img/componentes.png)
+![Diagrama de Componentes](ArqSolução2.jpeg)
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
+     - **Notícias** - seções de notícias apresentadas 
+     - **Processos** - registro de dos processos de arquivados pelo usuário e acesso posterior
+     - **Comentários** - registro de comentários dos usuários sobre as notícias
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+ - **Hospedagem do site** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+ - **Hospedagem dos arquivos** - local onde são armazenados os arquivos e códigos da aplicação.
 
 > **Links Úteis**:
 >
