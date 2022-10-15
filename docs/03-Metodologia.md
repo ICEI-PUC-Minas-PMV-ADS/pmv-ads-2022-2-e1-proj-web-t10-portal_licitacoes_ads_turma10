@@ -83,6 +83,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo desenvolvido no Trello está disponível através do link https://trello.com/b/fT07ietm/projeto-licita%C3%A7%C3%B5es e é apresentado, no estado atual, na Figura Abaixo: 
 
+![Trello](https://user-images.githubusercontent.com/114961595/196011524-1e45606d-6f45-418f-8cd5-4f38b9cdc6db.JPG) 
 
 ### Ferramentas
 
