@@ -89,11 +89,11 @@ O quadro kanban do grupo desenvolvido no Trello está disponível através do li
 
 As ferramentas empregadas no projeto são: 
 
-●    Editor de código - Visual Studio Code 
+●    **Editor de código** - Visual Studio Code 
 
-●    Ferramentas de comunicação - WhatsApp e Teams
+●    **Ferramentas de comunicação** - WhatsApp e Teams
 
-●    Ferramenta de desenho de tela - MarvelApp
+●    **Ferramenta de desenho de tela** - MarvelApp
 
 
 O editor de código Visual Studio Code foi escolhido pela sua prática integração com o Git Hub. Já as ferramentas de comunicação WhatsApp e Teams foram escolhidas pela familiaridade dos membros do grupo com as mesmas. Por fim, escolhemos a ferramenta MarvelApp para os desenhos de tela por ter atendido bem ao que precisávamos. 
