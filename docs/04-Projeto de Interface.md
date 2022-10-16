@@ -5,7 +5,7 @@
 
 Nesta etapa do projeto buscamos desenhar um esboço das telas e incorporar na interface deste sistema todos os requisitos funcionais definidos previamente. As telas possuem uma Identidade visual padronizada e um design bastante limpo e objetivo para melhor usabilidade, agilidade e acessibilidade, tanto nos dispositivos móveis quanto no Desktop.
 
-## User Flow
+## Fluxo do Usuário
 
 O diagrama apresentado na Figura abaixo, mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o link:(https://marvelapp.com/prototype/2ge6bdh6).
 
