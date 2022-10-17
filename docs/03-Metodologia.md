@@ -67,7 +67,7 @@ A equipe está organizada da seguinte maneira:
    ○   Lucas Guilherme dos Reis
 
 
-### Processo
+### Processo e Sprints
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello
 
@@ -79,9 +79,14 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ●     **Concluído:** Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-O quadro kanban do grupo desenvolvido no Trello está disponível através do link https://trello.com/b/fT07ietm/projeto-licita%C3%A7%C3%B5es e é apresentado, no estado atual, na Figura Abaixo: 
 
-![Trello](https://user-images.githubusercontent.com/114961595/196011524-1e45606d-6f45-418f-8cd5-4f38b9cdc6db.JPG) 
+As metas de cada Sprint foram definidas em reunião realizada em 16 de Setembro com a presença de todos os integrantes envolvidos no projeto. Scrum Master, Product Owner e demais desenvolvedores. 
+Desenvolvemos um quadro Kanban no Trello em que cada Card corresponde a uma meta a ser entregue naquela Sprint. Cada Card contém etapa relacionada, a meta geral a ser entregue, as sub tarefas mais importantes desta meta e um prazo para entrega daquela Sprint.     
+O quadro em questão está disponível no link: https://trello.com/b/fT07ietm/projeto-licita%C3%A7%C3%B5es e é apresentado, no estado atual, na Figura Abaixo: 
+
+
+![Trello1610comSprints](https://user-images.githubusercontent.com/114961595/196072898-79b947f1-54db-484b-8185-73ec90c6e5eb.JPG)
+
 
 ### Ferramentas
 
