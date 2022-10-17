@@ -80,7 +80,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ●     **Concluído:** Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 
-As metas de cada Sprint foram definidas em reunião realizada em 16 de Setembro com a presença de todos os integrantes envolvidos no projeto. Scrum Master, Product Owner e demais desenvolvedores. 
+As metas de cada ´Sprint´ foram definidas em reunião realizada em 16 de Setembro com a presença de todos os integrantes envolvidos no projeto. Scrum Master, Product Owner e demais desenvolvedores. 
 Desenvolvemos um quadro Kanban no Trello em que cada Card corresponde a uma meta a ser entregue naquela Sprint. Cada Card contém etapa relacionada, a meta geral a ser entregue, as sub tarefas mais importantes desta meta e um prazo para entrega daquela Sprint.     
 O quadro em questão está disponível no link: https://trello.com/b/fT07ietm/projeto-licita%C3%A7%C3%B5es e é apresentado, no estado atual, na Figura Abaixo: 
 
