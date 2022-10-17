@@ -73,7 +73,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ●     **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
-●     **A fazer:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+●     **A fazer:** Tarefas definidas e com o prazo para execução já iniciado.
 
 ●     **Em andamento:** Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 
