@@ -64,8 +64,6 @@ A equipe está organizada da seguinte maneira:
 
    ○  Juan Vitor Vieira da Silva 
 
-●     Equipe de Design:
-
    ○   Lucas Guilherme dos Reis
 
 
