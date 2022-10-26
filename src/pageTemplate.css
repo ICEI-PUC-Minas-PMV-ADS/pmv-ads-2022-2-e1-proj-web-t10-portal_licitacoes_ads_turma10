@@ -25,7 +25,79 @@ header {
     background-color: #212329;
 }
 
-.logo {
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+	background-color: #212329;
+}
+nav .logo {
+	float: left;
+	cursor: pointer;
+    max-width: 200px;
+    /* max-height: 45.6px; */
+    max-width: 100%;
+    max-height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+    top: 40%;
+	width:30%;
+	height: 100%;
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+nav .links a:hover{
+    color: red;
+}
+
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+/* .logo {
     max-width: 200px;
     max-height: 45.6px;
     cursor: pointer;
@@ -53,18 +125,23 @@ header {
 
 .nav_links li a:hover {
     color: red;
-}
+}*/
 
+.search_bar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
 
 #header_search_bar {
     width: 250px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 4px 0 0 4px;
     outline: none;
     border: none;
     padding-left: 0.5rem;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 #header_search_bar::placeholder{
@@ -74,12 +151,13 @@ header {
 #header_search_bar_btn{
     width: 100px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
     background-color: #f9423d;
     outline: none;
     border: none;
     color: #fff;
     font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 #header_search_bar_btn:hover {
@@ -182,16 +260,73 @@ header {
 
 @media screen and (max-width: 768px) {
 
-    .footer-heading {
-        margin-right: 2rem;
-        font-size: 3vw;
+    nav .logo {
+		float: none;
+		justify-content: center;
+        padding: 5% 0;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+
+    .footer-heading h2{
+        /* margin-right: 2rem; */
+        font-size: 5vw;
     }
+
+    .footer-heading a{
+        font-size: 3.5vw;
+    }
+
+    .footer-1 {
+        width: 30%;
+    }
+
+    .footer-2 {
+        margin: 0;
+        width: 30%;
+    }
+
     .footer-3 {
         display: none;
     }
+
     .footer-email-form {
         margin-top: 2rem;
     }
+    
     .footer-email-form h2{
         font-size: 5vw;
     }
