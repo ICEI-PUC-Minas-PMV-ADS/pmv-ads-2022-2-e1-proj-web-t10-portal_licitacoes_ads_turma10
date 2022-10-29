@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Licitações</title>
+
     <link rel="stylesheet" href="licitacoes.css" />
+    <link rel="stylesheet" href="pageTemplate.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -31,19 +33,21 @@
     </header>
 
     <main>
-        <div>
-            <h1> Pesquisar Licitações</h1>
+
+        <div class="card-title">
+            <h1 class="title-card"> Pesquisar Licitações</h1>
             <p> Encontre a oportunidade certa para a sua empresa!</p>
         </div>
-        <nav class="navbar bg-white">
-            <div class="container-fluid">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Digite uma palavra-chave"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
-        </nav>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Digite uma palavra-chave"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        
 
         <div class="card text-center">
             <div class="card-header">
@@ -51,9 +55,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">Licitação 1</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, nam expedita? Ipsam
-                    iure a accusantium illo, voluptates, exercitationem quaerat assumenda eum, nesciunt asperiores quas
-                    obcaecati.</p>
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem sit suscipit expedita, officiis assumenda error a sequi eum maxime soluta. Enim cumque rerum impedit voluptate et culpa necessitatibus ullam soluta aspernatur nesciunt! Veniam asperiores quis unde minima quidem magnam voluptates id optio? Odio dicta consequuntur recusandae neque repellendus numquam placeat pariatur inventore facere nobis voluptate voluptates magni obcaecati, iusto in dolor ea nostrum, distinctio, rerum corrupti sapiente maiores deleniti necessitatibus doloribus. Quae, consequatur molestias reiciendis totam magni veritatis nam laudantium inventore aspernatur? Esse odio reiciendis doloribus ex adipisci. Commodi harum beatae enim ut ullam doloremque dicta provident veniam saepe.</p>
                 <a href="#" class="btn btn-primary">Acompanhar Licitação</a>
             </div>
             <div class="card-footer text-muted">
@@ -76,6 +78,39 @@
         </div>
     </main>
 
+    <footer class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>Conteúdo</h2>
+                <a href="#">Licitações</a>
+                <a href="#">Notícias</a>
+                <a href="#">Blog</a>
+                <!-- <a href="#">Link 4</a> -->
+                <!-- <a href="#">Link 5</a> -->
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Entre em contato</h2>
+                <a href="#">Suporte</a>
+                <a href="#">SAC</a>
+                <a href="#">Faça parte do time</a>
+                <!-- <a href="#">Link 4</a> -->
+                <!-- <a href="#">Link 5</a> -->
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Sobre nós</h2>
+                <a href="#">Quem somos</a>
+                <a href="#">Nossa missão</a>
+                <!-- <a href="#">Link 3</a> -->
+                <!-- <a href="#">Link 4</a> -->
+                <!-- <a href="#">Link 5</a> -->
+            </div>
+            <div class="footer-email-form">
+                <h2>Receba novidades no seu e-mail</h2>
+                <input type="email" placeholder="Digite seu e-mail aqui" id="footer-email" />
+                <input type="submit" value="OK" id="footer-email-btn" />
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
