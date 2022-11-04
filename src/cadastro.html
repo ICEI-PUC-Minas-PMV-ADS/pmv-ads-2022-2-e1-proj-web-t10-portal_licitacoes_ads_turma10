@@ -1,174 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-BR">
 
-    <!-- Css -->
-    <link rel="stylesheet" href="cadastro.css" />
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cadastro - Portal de Licitações</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <a href="#"
-        ><img src="images/logo-placeholder.png" alt="logo" class="logo"
-      /></a>
-      <nav>
-        <ul class="nav_links">
-          <li><a href="#">Licitações</a></li>
-          <li><a href="#">Notícias</a></li>
-          <li><a href="#">Guia</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="search_bar">
-        <input
-          type="text"
-          placeholder="Digite sua pesquisa"
-          id="header_search_bar"
-        />
-        <input type="submit" value="Pesquisar" id="header_search_bar_btn" />
-      </div>
-    </header>
-    <!-- Fim Header -->
+	<!-- Css -->
+	<link rel="stylesheet" href="pageTemplate.css">
+	<link rel="stylesheet" href="cadastro.css">
 
-    <!-- Main -->
-    <main>
-      <div class="form">
-        <form action="#">
-          <div class="form_header">
-            <div class="title">
-              <h2>Cadastro de Perfil de Usuário</h2>
-            </div>
-          </div>
+	<title>Cadastro - Portal de Licitações</title>
+</head>
 
-          <div class="input_container">
-            <div class="input_box">
-              <h3 class="input_title">Dados Pessoais</h3>
-              <label for="name">Nome completo: </label>
-              <input
-                id="name"
-                type="text"
-                name="name"
-                placeholder="Digite seu nome completo"
-                required
-              />
-            </div>
-            <div class="input_box">
-              <label for="document"> CPF: </label>
-              <input
-                type="text"
-                id="document"
-                placeholder="Digite seu CPF"
-                required
-              />
-            </div>
+<body>
+	<!-- Header -->
+	<header>
+		<nav>
+			<input id="nav-toggle" type="checkbox">
+			<a href="#"><img src="images/logo-placeholder.png" alt="logo" class="logo"></a>
+			<div class="search_bar">
+				<input type="text" placeholder="Digite sua pesquisa" id="header_search_bar">
+				<input type="submit" value="Pesquisar" id="header_search_bar_btn">
+			</div>
+			<ul class="links">
+				<li><a href="#">Licitações</a></li>
+				<li><a href="#">Notícias</a></li>
+				<li><a href="#">Guia</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+		</nav>
+	</header>
+	<!-- Fim Header -->
 
-            <div class="input_box">
-              <label for="email">E-mail: </label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Digite seu e-mail"
-                required
-              />
-            </div>
-            <div class="input_box">
-              <label for="email">Telefone: </label>
-              <input
-                id="number"
-                type="tel"
-                name="number"
-                placeholder="(xx) xxxx-xxxx"
-                required
-              />
-            </div>
-          </div>
+	<!-- Main -->
+	<main>
+		<div class="form">
+			<form action="#">
+				<div class="form_header">
+					<div class="title">
+						<h2>Cadastro de Perfil de Usuário</h2>
+					</div>
+				</div>
 
-          <div class="input_container">
-            <div class="input_box">
-              <h3 class="input_title">Dados da Empresa</h3>
-              <label for="company_name">Nome da empresa (Razão Social): </label>
-              <input
-                id="company_name"
-                type="text"
-                name="company_name"
-                placeholder="Digite o nome da empresa"
-                required
-              />
-            </div>
-            <div class="input_box">
-              <label for="company_document"> CNPJ: </label>
-              <input
-                type="text"
-                id="company_document"
-                placeholder="Digite o CNPJ"
-                required
-              />
-            </div>
+				<div class="input_container">
+					<div class="input_box">
+						<h3 class="input_title">Dados Pessoais</h3>
+						<label for="name">Nome completo: </label>
+						<input
+							id="name"
+							type="text"
+							name="name"
+							placeholder="Digite seu nome completo"
+							required
+						/>
+					</div>
+					<div class="input_box">
+						<label for="document"> CPF: </label>
+						<input
+							type="text"
+							id="document"
+							placeholder="Digite seu CPF"
+							required
+						/>
+					</div>
 
-            <div class="input_box">
-              <label for="company_acting">Ramo de atuação: </label>
-              <input
-                id="company_acting"
-                type="text"
-                name="company_acting"
-                placeholder="Digite o ramo de atuação"
-                required
-              />
-            </div>
-          </div>
+					<div class="input_box">
+						<label for="email">E-mail: </label>
+						<input
+							id="email"
+							type="email"
+							name="email"
+							placeholder="Digite seu e-mail"
+							required
+						/>
+					</div>
+					<div class="input_box">
+						<label for="email">Telefone: </label>
+						<input
+						id="number"
+						type="tel"
+						name="number"
+						placeholder="(xx) xxxx-xxxx"
+						required
+					/>
+					</div>
+				</div>
 
-          <div class="register_button">
-            <button><a href="#"> Cadastrar </a></button>
-          </div>
-        </form>
-      </div>
-    </main>
-    <!-- Fim Main -->
+				<div class="input_container">
+					<div class="input_box">
+						<h3 class="input_title">Dados da Empresa</h3>
+						<label for="company_name">Razão Social: </label>
+						<input
+						id="company_name"
+						type="text"
+						name="company_name"
+						placeholder="Digite o nome da empresa"
+						required
+					/>
+					</div>
+					<div class="input_box">
+						<label for="company_document"> CNPJ: </label>
+						<input
+						type="text"
+						id="company_document"
+						placeholder="Digite o CNPJ"
+						required
+					/>
+					</div>
 
-    <!-- Footer -->
-    <footer class="footer-container">
-      <div class="footer">
-        <div class="footer-heading footer-1">
-          <h2>Conteúdo</h2>
-          <a href="#">Licitações</a>
-          <a href="#">Notícias</a>
-          <a href="#">Blog</a>
-          <!-- <a href="#">Link 4</a> -->
-          <!-- <a href="#">Link 5</a> -->
-        </div>
-        <div class="footer-heading footer-2">
-          <h2>Entre em contato</h2>
-          <a href="#">Suporte</a>
-          <a href="#">SAC</a>
-          <a href="#">Faça parte do time</a>
-          <!-- <a href="#">Link 4</a> -->
-          <!-- <a href="#">Link 5</a> -->
-        </div>
-        <div class="footer-heading footer-3">
-          <h2>Sobre nós</h2>
-          <a href="#">Quem somos</a>
-          <a href="#">Nossa missão</a>
-          <!-- <a href="#">Link 3</a> -->
-          <!-- <a href="#">Link 4</a> -->
-          <!-- <a href="#">Link 5</a> -->
-        </div>
-        <div class="footer-email-form">
-          <h2>Receba novidades no seu e-mail</h2>
-          <input
-            type="email"
-            placeholder="Digite seu e-mail aqui"
-            id="footer-email"
-          />
-          <input type="submit" value="OK" id="footer-email-btn" />
-        </div>
-      </div>
-    </footer>
-    <!-- Fim Footer -->
-  </body>
+					<div class="input_box">
+						<label for="company_acting">Ramo de atuação: </label>
+						<input
+						id="company_acting"
+						type="text"
+						name="company_acting"
+						placeholder="Digite o ramo de atuação"
+						required
+					/>
+					</div>
+				</div>
+
+				<div class="register_button">
+					<button><a href="#"> Cadastrar </a></button>
+				</div>
+			</form>
+		</div>
+	</main>
+	<!-- Fim Main -->
+
+	<!-- Footer -->
+	<footer class="footer-container">
+		<div class="footer">
+			<div class="footer-heading footer-1">
+				<h2>Conteúdo</h2>
+				<a href="#">Licitações</a>
+				<a href="#">Notícias</a>
+				<a href="#">Blog</a>
+			</div>
+			<div class="footer-heading footer-2">
+				<h2>Contato</h2>
+				<a href="#">Suporte</a>
+				<a href="#">SAC</a>
+				<a href="#">Faça parte do time</a>
+			</div>
+			<div class="footer-heading footer-3">
+				<h2>Sobre nós</h2>
+				<a href="#">Quem somos</a>
+				<a href="#">Nossa missão</a>
+			</div>
+			<div class="footer-email-form">
+				<h2>Receba novidades no seu e-mail</h2>
+				<input type="email" placeholder="Digite seu e-mail aqui" id="footer-email">
+				<input type="submit" value="OK" id="footer-email-btn">
+			</div>
+		</div>
+	</footer>
+	<!-- Fim Footer -->
+</body>
+
 </html>
