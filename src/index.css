@@ -1,0 +1,7 @@
+.noticias {
+    display: inline-block;
+    width: calc(33% - 16px);
+    background-color: rgb(233, 224, 224);
+    margin: 20px;
+    padding: 20px;
+}
