@@ -1,15 +1,14 @@
-
 .card-title {
-    
+
     text-align: center;
 }
 
-.card-title p{
+.card-title p {
     margin: auto;
 }
 
 
-.barra-pesquisa {    
+.barra-pesquisa {
     text-align: center;
 }
 
@@ -20,6 +19,7 @@
 .navbar {
     text-align: center;
 }
+
 .navbar {
     margin: auto;
 }
@@ -27,6 +27,7 @@
 .container-fluid {
     text-align: center;
 }
+
 .container-fluid {
     margin: auto;
 }
@@ -34,6 +35,7 @@
 .d-flex {
     text-align: center;
 }
+
 .d-flex {
     margin: auto;
 }
