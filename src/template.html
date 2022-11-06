@@ -57,8 +57,18 @@
                 <i class="fas fa-search"></i>
             </a>
         </section>
+            <h1>Notícias</h1>
+            <div id="lista-noticias">
 
+            </div>
+        <script>
+            var news = '';
+            for (i=0; i < template.dados.length; i++) {
+                news += 'Notícias: ${ template.dados[i].titulo } <br>';
+            }
+            document.getElementById('lista-noticias').innerHTML = news;
 
+        </script>
 
 
 
