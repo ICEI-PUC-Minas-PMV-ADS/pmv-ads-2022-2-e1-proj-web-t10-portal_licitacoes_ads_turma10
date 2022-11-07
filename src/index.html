@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Css -->
-    <link rel="stylesheet" href="pageTemplate.css">
+    <link rel="stylesheet" href="template.css">
     <link rel="stylesheet" href="index.css">
 
     <title>Página Inicial</title>
@@ -18,16 +18,17 @@
     <header>
         <nav>
             <input id="nav-toggle" type="checkbox">
-            <a href="#"><img src="images/logo-placeholder.png" alt="logo" class="logo"></a>
+            <a href="./index.html"><img src="images/logo-placeholder.png" alt="logo" class="logo"></a>
             <div class="search_bar">
                 <input type="text" placeholder="Digite sua pesquisa" id="header_search_bar">
                 <input type="submit" value="Pesquisar" id="header_search_bar_btn">
             </div>
             <ul class="links">
-                <li><a href="#">Licitações</a></li>
+                <li><a href="./licitacoes.html">Licitações</a></li>
                 <li><a href="#">Notícias</a></li>
-                <li><a href="#">Guia</a></li>
+                <li><a href="./guia.html">Guia</a></li>
                 <li><a href="#">Contato</a></li>
+                <li><a href="./cadastro.html">Cadastro</a></li>
             </ul>
             <label for="nav-toggle" class="icon-burger">
                 <div class="line"></div>
@@ -40,7 +41,22 @@
 
     <!-- Main -->
     <main>
-        <section>
+        <div class="text">
+            <h1>Descubra como é fácil participar de <br> Licitações e impulsione o seu negócio <br></h1>
+        </div>
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <section class="caixa-search">
+            <input class="caixa-texto" type="text" name="" placeholder="Pesquise por palavra-chave...">
+            <a class="botao-search" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </section>
+            
+        <section class="noticias-section">
+            <h2 class="noticias">Últimas Notícias</h2>
             <div class="noticias">
                 <h2>Notícia 1</h2>
                 <p> <img src="http:source.unsplash.com/random/120x120?sig=1"> Lorem, ipsum dolor sit amet consectetur
@@ -64,13 +80,7 @@
                 </p>
 
             </div>
-
-
-
         </section>
-
-
-
     </main>
     <!-- Fim Main -->
 
@@ -79,7 +89,7 @@
         <div class="footer">
             <div class="footer-heading footer-1">
                 <h2>Conteúdo</h2>
-                <a href="#">Licitações</a>
+                <a href="./licitacoes.css">Licitações</a>
                 <a href="#">Notícias</a>
                 <a href="#">Blog</a>
             </div>
