@@ -33,7 +33,7 @@ nav {
 	top: 0;
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
-	height: 80px;
+	height: 100px;
 	background-color: #212329;
 }
 nav .logo {
@@ -135,86 +135,21 @@ nav .icon-burger .line {
     transition: all 0.4s ease-out;
 }
 
-                 /*Inicio do main*/
-
+/*Inicio do main*/
 main{
-    margin-top : 70px;
-    height: 600px;
-
+    margin-top: 60px;
 }
-.text h1 {
-    color: gray;
-    text-align: center;
-}
-
-.search {
-    width: 80%;
-}
-
-.caixa-search {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #333;
-    height: 55px;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.caixa-search:hover > .caixa-texto {
-    width: 240px;
-    padding: 0 6px;
-}
-
-.caixa-search:hover > .botao-search {
-    background-color: #fff;
-    margin-left: 3px;
-}
-
-.botao-search {
-    color: #e84118;
-    float: right;
-    width: 40px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    align-items: center;
-    transition: 0.4s;
-}
-
-.caixa-texto {
-    border: none;
-    background-color: #333;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: #fff;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-    cursor: pointer;
-}
-
-.noticias h2 {
-    background-color: #e84118;
-}
-
-                  /*Fim do Main*/
+/*Fim do Main*/
 
 .footer-container {
     background-color: #212329;
-    padding: 1rem 0 2rem 0;
+    padding: 4rem 0 2rem 0;
     margin-top: auto;
 }
 
 .footer {
     width: 80%;
-    height: 17vh;
+    height: 15vh;
     background-color: #212329;
     color: #fff;
     display: flex;
@@ -282,7 +217,7 @@ main{
     transition: all 0.4s ease-out;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1150px) {
     .footer {
         height: 50vh;
     }
@@ -294,6 +229,10 @@ main{
 @media screen and (max-width: 820px) {
     .footer {
         padding-top: 2rem;
+    }
+
+    .search_bar{
+        display: none
     }
 }
 
