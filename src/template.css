@@ -151,6 +151,13 @@ main{
     width: 80%;
 }
 
+.noticia {
+    display: inline-block;
+    width: 30%;
+    background-color: #b1b1b1;
+    margin: 8px;
+}
+
 .caixa-search {
     position: absolute;
     top: 35%;
