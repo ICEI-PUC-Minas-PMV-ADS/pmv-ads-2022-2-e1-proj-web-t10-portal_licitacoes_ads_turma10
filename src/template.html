@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="template.css">
 
     <!-- JS -->
-    <script src="template.js"></script>
+    <script src="tempfake.js"></script>
 
     <title>Página Inicial</title>
 </head>
@@ -57,19 +57,11 @@
                 <i class="fas fa-search"></i>
             </a>
         </section>
-            <h1>Notícias</h1>
+            <h2 class="noticias">Notícias</h2>
             <div id="lista-noticias">
 
             </div>
-        <script>
-            var news = '';
-            for (i=0; i < template.dados.length; i++) {
-                news += 'Notícias: ${ template.dados[i].titulo } <br>';
-            }
-            document.getElementById('lista-noticias').innerHTML = news;
-
-        </script>
-
+        
 
 
 

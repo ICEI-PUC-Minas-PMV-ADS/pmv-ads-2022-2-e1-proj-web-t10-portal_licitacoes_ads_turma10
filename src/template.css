@@ -200,7 +200,9 @@ main{
     cursor: pointer;
 }
 
-
+.noticias h2 {
+    background-color: #e84118;
+}
 
                   /*Fim do Main*/
 
