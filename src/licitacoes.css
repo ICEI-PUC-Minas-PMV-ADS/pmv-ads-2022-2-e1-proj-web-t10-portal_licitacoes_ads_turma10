@@ -22,6 +22,7 @@
 
 .navbar {
     margin: auto;
+    background-color: white;
 }
 
 .container-fluid {
@@ -30,6 +31,7 @@
 
 .container-fluid {
     margin: auto;
+    
 }
 
 .d-flex {
@@ -38,4 +40,13 @@
 
 .d-flex {
     margin: auto;
+}
+
+h5.card-title{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card-footer{
+    font-size: small;
 }
