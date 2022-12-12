@@ -1,9 +1,7 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-
 O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura a seguir:
+
 ![Estrutura de telas](img/estrutura%20telas.jpeg)
 
 A seguir encontra-se o template padrão utilizado em todas as páginas com a identidade visual criada por nós, assim como o logotipo e demais características de design desenvolvidas nas linguagens HTML e CSS.
