@@ -12,5 +12,5 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 
 O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura a seguir:
-![Alt text](img/wireframe-example.png)
+![Estrutura de telas](img/estrutura%20telas.jpeg)
 ![Template](img/template%20com%20design.jpg)
