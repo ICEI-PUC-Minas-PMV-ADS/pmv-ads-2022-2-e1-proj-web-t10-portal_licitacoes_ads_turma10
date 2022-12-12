@@ -15,7 +15,7 @@ A tela principal do sistema apresenta notícias relacionadas ao processo de lici
 index.html <br>
 index.css <br>
 
-Instruções de acesso: 
+## Instruções de acesso: 
 1.	Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10/src/
 2.	A tela de notícias é a primeira funcionalidade exibida pelo aplicativo.
 
