@@ -15,6 +15,7 @@ Segue imagem no detalhe da Logo:
 ![logo fundo preto](img/logo%20fundo%20preto.png)
 
 O template criado está disponível no github e é composto pelos seguintes layouts: 
+
 ●	Tela principal / Tela de notícias
 ●	Licitações
 ●	Guia
