@@ -36,12 +36,13 @@
 
 h5.card-title{
     font-weight: bold;
-    font-size: larger;
+    font-size: 30px
 }
 
 .form-control{
     width: 40%;
     height: 25px;
+    
 }
 
 .card-header{
@@ -50,6 +51,8 @@ h5.card-title{
     padding: 0 0 10px 0;
     font-weight: bold;
     font-size: larger;
+    text-decoration-line: overline underline;
+    text-decoration-style: solid;
 }
 .title-card{
     padding: 10px;
@@ -60,6 +63,8 @@ h5.card-title{
     height: 25px;
     width: fit-content;
     margin: 0%;
-     
+}
 
+.card-body{
+    margin: 15px 40px;
 }

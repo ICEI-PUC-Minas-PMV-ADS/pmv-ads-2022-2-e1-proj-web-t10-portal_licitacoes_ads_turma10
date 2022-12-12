@@ -1,13 +1,15 @@
 html, body {
   background: #f1f1f1;
   font-family: 'Merriweather', sans-serif;
-  padding: 1em;
+  
 }
 
 h1 {
    text-align: center;
-   color: #a8a8a8;
+   color: #030303;
    text-shadow: (1px 1px 0 rgba(white, 1));
+   text-decoration-line:  underline;
+   text-decoration-style: solid;
 }
 
 form {
@@ -24,7 +26,7 @@ form {
 .half {
   float: left;
   width: 48%;
-  margin-bottom: 3em;
+  margin-bottom: m;
 }
 
 .right { width: 50%; }
@@ -48,6 +50,13 @@ form {
 }
 
 .infos{
-  float:none;
+  justify-items: center;
   font-family: 'Merriweather', sans-serif;
+  text-align: center;
+  padding: 15px;
+  
+}
+
+#input-message{
+  width: 300px;
 }

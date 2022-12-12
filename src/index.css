@@ -3,6 +3,7 @@ main{
     height: 600px;
     display: flex;
     flex-direction: column;
+    
 }
 .text h1 {
     color: gray;
@@ -66,6 +67,8 @@ main{
     align-items: center;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+
 }
 
 .noticias h2 {
@@ -77,7 +80,7 @@ main{
 
 .noticias {
     display: inline-block;
-    width: calc(33% - 16px);
+    width: calc(50% - 16px);
     background-color: rgb(233, 224, 224);
     margin: 20px;
     padding: 20px;
