@@ -11,7 +11,7 @@ A tela principal do sistema apresenta notícias relacionadas ao processo de lici
 <li>RF-05 - O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação.</li><br>
 <li>RF-07 - O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail).</li><br>
 
-<strong> Artefatos da Funcionalidades </strong><br> 
+<strong> Artefatos da Funcionalidade </strong><br> 
 index.html <br>
 index.css <br>
 
