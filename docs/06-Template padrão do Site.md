@@ -21,3 +21,13 @@ A seguir encontra-se o template padrão utilizado em todas as páginas com a ide
 A nossa Logotipo foi desenvolvida por nós, mantendo as cores vermelho, branco, cinza e preto e trazendo referência de um portal virtual aonde será reunirá Notícias sobre processos de licitação, guia de instruções para participação de processos, acompanhamento de processos selecionados e demais funcionalidades.
 Segue imagem no detalhe da Logo:
 
+![logotipo](../src/images/logoportalnoticias.png)
+
+O template criado está disponível no github e é composto pelos seguintes layouts: 
+●	Tela principal / Tela de notícias
+●	Licitações
+●	Guia
+●	Contato
+●	Cadastro
+
+A responsividade segue o padrão do Bootstrap.
