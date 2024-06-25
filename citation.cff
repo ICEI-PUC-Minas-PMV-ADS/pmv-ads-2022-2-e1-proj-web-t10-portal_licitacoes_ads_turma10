@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: Portal de Informações acerca de licitações no Brasil
+authors:
+  - family-names: Alves Júnior
+    given-names: Erasmo
+  - family-names: Gonçalves Sobrinho
+    given-names: Felipe
+  - family-names: Lopes Coelho Barroso
+    given-names: Cláudio
+  - family-names: Raphaell Camilo de Souza
+    given-names: Sidney
+  - family-names: Guilherme dos Reis
+    given-names: Lucas
+  - family-names: Vitor Vieira da Silva
+    given-names: Juan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Caetano
+    given-names: Josemar
+keywords:
+  - Licitações
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t10-portal_licitacoes_ads_turma10
+version: 1.0.0
+date-released: 2022-12-12
